@@ -1,2 +1,2 @@
-INSERT INTO Users (Username, Password, UserRole) VALUES ('VolunteerTest', '1234.Hello#', 'volunteer');
-INSERT INTO Users (Username, Password, UserRole) VALUES ('ScientistTest', '4321,Bye!', 'scientist');
+INSERT INTO Users (Name, Username, Password, UserRole) VALUES ('Volunteer1', 'VolunteerTest', '1234.Hello#', 'volunteer');
+INSERT INTO Users (Name, Username, Password, UserRole) VALUES ('Scientist1','ScientistTest', '4321,Bye!', 'scientist');

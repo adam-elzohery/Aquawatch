@@ -1,6 +1,7 @@
 -- Users Table
 CREATE TABLE Users (
     UserId INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL,
     Username VARCHAR(50) UNIQUE NOT NULL,
     Password VARCHAR(255) NOT NULL, -- Store hashed passwords, not plain text
     UserRole ENUM('volunteer', 'scientist') NOT NULL
